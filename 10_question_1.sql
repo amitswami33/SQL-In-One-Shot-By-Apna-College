@@ -1,0 +1,1 @@
+select city, avg(marks) from student2 group by city order by avg(marks) ASC; 
